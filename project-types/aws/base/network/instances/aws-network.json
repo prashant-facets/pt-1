@@ -1,7 +1,7 @@
 {
   "kind": "network",
   "flavor": "aws_vpc",
-  "version": "1.0",
+  "version": "0.1",
   "spec": {
     "vpc_cidr": "10.0.0.0/16",
     "auto_select_azs": true,

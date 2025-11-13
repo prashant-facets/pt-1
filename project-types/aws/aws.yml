@@ -15,7 +15,7 @@ mappedResources:
       intentType: aws
     - intent: network
       flavor: aws_vpc
-      intentType: aws
+      intentType: networking
     - intent: service
       flavor: aws
       intentType: aws
