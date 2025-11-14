@@ -2,7 +2,7 @@ name: AWS
 description: AWS project type with common configurations.
 allowedClouds:
     - AWS
-mappedResources:
+modules:
     # AWS Modules
     - intent: cloud_account
       flavor: aws_provider
