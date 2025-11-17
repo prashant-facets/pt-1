@@ -6,21 +6,16 @@ modules:
     # AWS Modules
     - intent: cloud_account
       flavor: aws_provider
-      intentType: aws
       path: aws/cloud_account/aws_provider/1.0
     - intent: kubernetes_cluster
       flavor: eks
-      intentType: aws
       path: aws/kubernetes_cluster/eks/1.0
     - intent: kubernetes_node_pool
       flavor: aws
-      intentType: aws
       path: aws/kubernetes_node_pool/aws/1.0
     - intent: network
       flavor: aws_vpc
-      intentType: networking
       path: aws/network/aws_vpc/1.0
     - intent: service
       flavor: aws
-      intentType: aws
       path: aws/service/aws/1.0
